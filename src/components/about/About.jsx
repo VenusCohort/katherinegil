@@ -12,14 +12,20 @@ const About = () => {
     <h2>About Me</h2>
 
     <div className='container about_container'>
-      <div className='about_me'>
+      {/* <div className='about_me'>
         <div className='about_me-image'>
           <img src={ME} alt='About Me' />
         </div>
-      </div>
+      </div> */}
       
       <div className='about_content'>
         <div className='about_cards'>
+
+        <article className='about_card'>
+            <FaUserGraduate className='about_icon' />
+            <h5>Education</h5>
+            <small>CodeUp 2022, William Peace University</small>
+          </article>
 
           <article className='about_card'>
             <FaAward className='about_icon' />
@@ -33,11 +39,7 @@ const About = () => {
             <small>Crossfit Athlete, Mountain Biking, Personal Growth Enthusiastic</small>
           </article>
 
-          <article className='about_card'>
-            <FaUserGraduate className='about_icon' />
-            <h5>Education</h5>
-            <small>CodeUp 2022, William Peace University</small>
-          </article>
+        
         </div>
         <p>
         Software developer and Army Veteran with technical and management experience as a logistics specialist. Utilizing full-stack languages enhanced by the appropriate development frameworks in order to produce efficient code that maximizes performance while maintaining existing software functionality.
